@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Auto Escola Divinópulis</title>
+  <link rel="stylesheet" href="../codigos_css/app.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+
+<div class="container">
+<body>
+  
+    <nav>
+      <ul>
+        <li><a href="#" class="logo">
+          <img src="../imagens/iconi.png">
+          <span class="nav-item">Admin</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-menorah"></i>
+          <span class="nav-item">Dashboard <br></span>
+        </a></li>
+
+        <li><a href="agendamento.html" target="_blank">
+          <i class="fas fa-comment"></i>
+          <span class="nav-item">Agendamento</span>
+        </a></li>
+
+        <li><a href="matricula.html" target="_blank">
+          <i class="fas fa-database"></i>
+          <span class="nav-item">Matricula</span>
+        </a></li>
+        <li><a href="cadastrar_funcionario.html" target="_blank">
+          <i class="fas fa-chart-bar"></i>
+          <span class="nav-item">Funcionário</span>
+        </a></li>
+        <li><a href="novo_acesso.html" target="_blank">
+          <i class="fas fa-cog"></i>
+          <span class="nav-item">Novo Acesso</span>
+        </a></li>
+
+        <li><a href="#" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Encerrar sessão</span>
+        </a></li>
+      </ul>
+    </nav>
+
+    <section class="main">
+      <div class="main-top">
+        <h1 id="titulo">Auto Escola Divinópulis</h1>
+        <i class="fas fa-user-cog"></i>
+      </div>
+      <div class="users">
+        <div class="card">
+        <!--Informações de alguns profisionais-->
+          <img src="./pic/img1.jpg">
+          <h4>João</h4>
+          <p></p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>Aulas: Teoricas</span></td>
+              </tr>
+            </table>
+          </div>
+          <button>Instrutor</button>
+        </div>
+
+        <div class="card">
+          <img src="./pic/img2.jpg">
+          <h4>Ana Gabriela</h4>
+          <p></p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>Aulas: Praticas</span></td>
+              </tr>
+            </table>
+          </div>
+          <button>Instrutora</button>
+        </div>
+
+        <div class="card">
+          <img src="./pic/img3.jpg">
+          <h4>Hugo</h4>
+          <p></p>
+          <div class="per">
+            <table>
+              <tr>
+                <td> <span>Aulas: Teoricas</span></td>
+              </tr>
+            </table>
+          </div>
+          <button>Instrutor</button>
+        </div>
+
+        <div class="card">
+          <img src="./pic/img4.jpg">
+          <h4>Ricardo</h4>
+          <p></p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>Aulas: Praticas</span></td>
+              </tr>
+            </table>
+          </div>
+          <button>Instrutor</button>
+        </div>
+      </div>
+      
+      <div id="menuSuperior">
+
+        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <input type="text" placeholder="    Consulta geral">
+      </div>
+
+      <section class="attendance">
+        <div class="attendance-list">
+          <h1>Estudantes Matriculados</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>RG</th>
+                <th>CPF</th>
+                <th>E-mail</th>
+                <th>Categoria</th>
+                <th>Celular</th>
+                <th>Endereço</th>
+                <th>Sexo</th>
+                <th>data Nasc</th>
+                <th>Data inicio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01</td>
+                <td>Sam David</td>
+                <td>Design</td>
+                <td>03-24-22</td>
+                <td>8:00AM</td>
+                <td>3:00PM</td>
+                <td>02</td>
+                <td>02</td>
+                <td>02</td>
+                <td>02</td>
+
+                <td><button>Alterar</button></td>
+              </tr>
+
+              <tr>
+                <td>01</td>
+                <td>Sam David</td>
+                <td>Design</td>
+                <td>03-24-22</td>
+                <td>8:00AM</td>
+                <td>3:00PM</td>
+                <td>02</td>
+                <td>02</td>
+                <td>02</td>
+                <td>02</td>
+
+                <td><button>Alterar</button></td>
+              </tr>
+              <tr class="active">
+                <td>02</td>
+                <td>Balbina Kherr</td>
+                <td>Coding</td>
+                <td>03-24-22</td>
+                <td>9:00AM</td>
+                <td>4:00PM</td>
+                <td>02</td>
+                <td>02</td>
+                <td>02</td>
+                <td>02</td>
+
+                <td><button>Alterar</button></td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>Badan John</td>
+                <td>testing</td>
+                <td>03-24-22</td>
+                <td>8:00AM</td>
+                <td>3:00PM</td>
+                <td>02</td>
+                <td>02</td>
+                <td>02</td>
+                <td>02</td>
+
+                <td><button>Alterar</button></td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>Sara David</td>
+                <td>Design</td>
+                <td>03-24-22</td>
+                <td>8:00AM</td>
+                <td>3:00PM</td>
+                <td>02</td>
+                <td>02</td>
+                <td>02</td>
+                <td>02</td>
+
+                <td><button>Alterar</button></td>
+              </tr>
+             
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+
+</body>
+</html>

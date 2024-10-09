@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../codigos_css/cadastrar_funcionario.css">
+    <title>Cadastar funciónario</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Cadastrar Funcionário</h1>
+        <form id="form">
+            <div>
+                <input type="text" placeholder="Nome do funcionário" class="inputs required">
+                <span class="span-required"></span>
+            </div>
+            <div>
+                <input type="text" placeholder="Informe o CPF" class="inputs required">
+                <span class="span-required"></span>
+            </div>
+            <div>
+                <input type="text" placeholder="Informe o RG" class="inputs required">
+                <span class="span-required"></span>
+            </div>
+            <div>
+                <input type="text" placeholder="Qual é função" class="inputs required">
+                <span class="span-required"></span>
+            </div>
+            <div>
+                <input type="text" placeholder="Valor do salario" class="inputs required">
+                <span class="span-required"></span>
+            </div>
+            <div>
+                <input type="text" placeholder="Contato" class="inputs required">
+                <span class="span-required"></span>
+            </div>
+            <div>
+                <input type="text" placeholder="Endereço: Bairo/ Rua/ N da casa/ Complemento" class="inputs required">
+                <span class="span-required"></span>
+            </div>
+
+            <p>Sexo:</p>
+            <div class="box-select">
+                <div>
+                    <input type="radio" id="m" value="m" name="sexo">
+                    <label for="m">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" id="f" value="f" name="sexo">
+                    <label for="f">Feminino</label>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <section class="attendance">
+        <div class="attendance-list">
+
+          <h1>Funcionários cadastrados</h1>
+
+          <form id="busca" action="#" method="post">
+            <input type="text" name="search" id="search" placeholder="Informe o nome do funcionário" required>
+            <button type="submit">Buscar<i class="fas fa-search"></i></button>
+          </form>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>SX</th>
+                <th>CPF</th>
+                <th>RG</th>
+                <th>Função</th>
+                <th>Salario</th>
+                <th>Contato</th>
+                <th>Endereço</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <tr>
+                <td>Jozinho</td>
+                <td>M</td>
+                <td>12356473200</td>
+                <td>10832451</td>
+                <td>Instrutor</td>
+                <td>1600,00</td>
+                <td>(81)9 98765432</td>
+                <td>Bairro: Vassoural, Carmo N 45</td>
+                <td><button>Alterar</button></td>
+              </tr>
+
+              <tr class="active">
+                <td>Jozinho</td>
+                <td>M</td>
+                <td>12356473200</td>
+                <td>10832451</td>
+                <td>Instrutor</td>
+                <td>1600,00</td>
+                <td>(81)9 98765432</td>
+                <td>Bairro: Vassoural, Carmo N 45</td>
+                <td><button>Alterar</button></td>
+              </tr>
+
+              <tr>
+                <td>Jozinho</td>
+                <td>M</td>
+                <td>12356473200</td>
+                <td>10832451</td>
+                <td>Instrutor</td>
+                <td>1600,00</td>
+                <td>(81)9 98765432</td>
+                <td>Bairro: Vassoural, Carmo N 45</td>
+                <td><button>Alterar</button></td>
+              </tr>
+
+              <tr>
+                <td>Jozinho</td>
+                <td>M</td>
+                <td>12356473200</td>
+                <td>10832451</td>
+                <td>Instrutor</td>
+                <td>1600,00</td>
+                <td>(81)9 98765432</td>
+                <td>Bairro: Vassoural, Carmo N 45</td>
+                <td><button>Alterar</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+</body>
+</html>

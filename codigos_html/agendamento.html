@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href= "../codigos_css/agendamento.css">
+</head>
+<body>
+    <main>
+        <h1>Efetuar agendamento</h1>
+        <form action="">
+            <label for="nome">
+                <span>Nome</span>
+                <input type="text" id="nome" name="nome">
+            </label>
+
+            <label for="data">
+                <span>data</span>
+                <input type="date" id="data" name="data">
+            </label>
+
+            <label for="horario">
+                <span>Horario</span>
+                <input type="horario" id="horario" name="horario">
+            </label>
+
+            <label for="turno">
+                <span>Turno</span>
+                <input type="turno" id="turno" name="turno">
+            </label>
+
+            <input type="submit" value="Agendar" id="button">
+        </form>
+        
+    </main>
+      <section class="attendance">
+        <div class="attendance-list">
+
+          <h1>Agendamentos Realizados</h1>
+
+          <form id="busca" action="#" method="post">
+            <input type="text" name="search" id="search" placeholder="Informe o nome do agendamento" required>
+            <button type="submit">Buscar<i class="fas fa-search"></i></button>
+          </form>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Data</th>
+                <th>Horario</th>
+                <th>Turno</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <tr>
+                <td>Joazinho da Silva Mendes Melo</td>
+                <td>21/02/2023</td>
+                <td>7:15 ás 9:15</td>
+                <td>Noite</td>
+                <td><button>Alterar</button></td>
+              </tr>
+
+              <tr class="active">
+                <td>Joazinho da Silva Mendes Melo</td>
+                <td>21/02/2023</td>
+                <td>7:15 ás 9:15</td>
+                <td>Noite</td>
+                <td><button>Alterar</button></td>
+              </tr>
+
+              <tr>
+                <td>Joazinho da Silva Mendes Melo</td>
+                <td>21/02/2023</td>
+                <td>7:15 ás 9:15</td>
+                <td>Noite</td>
+                <td><button>Alterar</button></td>
+              </tr>
+
+              <tr>
+                <td>Joazinho da Silva Mendes Melo</td>
+                <td>21/02/2023</td>
+                <td>7:15 ás 9:15</td>
+                <td>Noite</td>
+                <td><button>Alterar</button></td>
+              </tr>
+             
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+    <section class="images">
+        <img src="assets/mobile.svg" alt="">
+        <div class="circle"></div>
+    </section>
+
+</body>
+</html>
